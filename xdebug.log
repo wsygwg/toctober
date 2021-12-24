@@ -1,0 +1,300 @@
+[12500] Log opened at 2021-12-24 02:07:09.798815
+[12500] [Step Debug] INFO: Connecting to configured address/port: 127.0.0.1:9000.
+[12500] [Step Debug] INFO: Connected to debugging client: 127.0.0.1:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[12500] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///D:/xampp-php72/htdocs/toctober/artisan" language="PHP" xdebug:language_version="7.2.0" protocol_version="1.0" appid="12500" idekey="PHPSTORM"><engine version="3.1.2"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2021 by Derick Rethans]]></copyright></init>
+
+[12500] [Step Debug] <- feature_set -i 11 -n show_hidden -v 1
+[12500] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="11" feature="show_hidden" success="1"></response>
+
+[12500] [Step Debug] <- feature_set -i 12 -n extended_properties -v 1
+[12500] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="12" feature="extended_properties" success="1"></response>
+
+[12500] [Step Debug] <- feature_set -i 13 -n max_depth -v 3
+[12500] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="13" feature="max_depth" success="1"></response>
+
+[12500] [Step Debug] <- feature_set -i 14 -n max_children -v 51
+[12500] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="14" feature="max_children" success="1"></response>
+
+[12500] [Step Debug] <- feature_set -i 15 -n max_data -v 1024
+[12500] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="15" feature="max_data" success="1"></response>
+
+[12500] [Step Debug] <- feature_get -i 16 -n encoding
+[12500] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="16" feature_name="encoding" supported="1"><![CDATA[iso-8859-1]]></response>
+
+[12500] [Step Debug] <- feature_get -i 17 -n supports_async
+[12500] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="17" feature_name="supports_async" supported="1"><![CDATA[0]]></response>
+
+[12500] [Step Debug] <- stdout -i 18 -c 1
+[12500] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stdout" transaction_id="18" success="1"></response>
+
+[12500] [Step Debug] <- stderr -i 19 -c 1
+[12500] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stderr" transaction_id="19" success="0"></response>
+
+[12500] [Step Debug] <- run -i 20
+[14824] Log opened at 2021-12-24 02:07:14.704295
+[14824] [Step Debug] INFO: Connecting to configured address/port: 127.0.0.1:9000.
+[14824] [Step Debug] INFO: Connected to debugging client: 127.0.0.1:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[14824] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///C:/ProgramData/ComposerSetup/bin/composer.phar" language="PHP" xdebug:language_version="7.2.0" protocol_version="1.0" appid="14824" idekey="PHPSTORM"><engine version="3.1.2"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2021 by Derick Rethans]]></copyright></init>
+
+[14824] [Step Debug] <- feature_set -i 21 -n show_hidden -v 1
+[14824] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="21" feature="show_hidden" success="1"></response>
+
+[14824] [Step Debug] <- feature_set -i 22 -n extended_properties -v 1
+[14824] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="22" feature="extended_properties" success="1"></response>
+
+[14824] [Step Debug] <- feature_set -i 23 -n max_depth -v 3
+[14824] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="23" feature="max_depth" success="1"></response>
+
+[14824] [Step Debug] <- feature_set -i 24 -n max_children -v 51
+[14824] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="24" feature="max_children" success="1"></response>
+
+[14824] [Step Debug] <- feature_set -i 25 -n max_data -v 1024
+[14824] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="25" feature="max_data" success="1"></response>
+
+[14824] [Step Debug] <- feature_get -i 26 -n encoding
+[14824] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="26" feature_name="encoding" supported="1"><![CDATA[iso-8859-1]]></response>
+
+[14824] [Step Debug] <- feature_get -i 27 -n supports_async
+[14824] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="27" feature_name="supports_async" supported="1"><![CDATA[0]]></response>
+
+[14824] [Step Debug] <- stdout -i 28 -c 1
+[14824] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stdout" transaction_id="28" success="1"></response>
+
+[14824] [Step Debug] <- stderr -i 29 -c 1
+[14824] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stderr" transaction_id="29" success="0"></response>
+
+[14824] [Step Debug] <- run -i 30
+[14824] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="run" transaction_id="30" status="stopping" reason="ok"></response>
+
+[12500] [Step Debug] -> <stream xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" type="stdout" encoding="base64"><![CDATA[bmFtZSAgICAgOiBvY3RvYmVyL3N5c3RlbQ0KZGVzY3JpcC4gOiBTeXN0ZW0gbW9kdWxlIGZvciBPY3RvYmVyIENNUw0Ka2V5d29yZHMgOiBvY3RvYmVyLCBvY3RvYmVyIGNtcywgc3lzdGVtDQp2ZXJzaW9ucyA6ICogdjEuMS45DQp0eXBlICAgICA6IG9jdG9iZXItbW9kdWxlDQpsaWNlbnNlICA6IE1JVCBMaWNlbnNlIChNSVQpIChPU0kgYXBwcm92ZWQpIGh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvTUlULmh0bWwjbGljZW5zZVRleHQNCmhvbWVwYWdlIDogaHR0cHM6Ly9vY3RvYmVyY21zLmNvbQ0Kc291cmNlICAgOiBbZ2l0XSBodHRwczovL2dpdGh1Yi5jb20vb2N0b2JlcnJhaW4vc3lzdGVtLmdpdCA5Mjg3NWY2ZGFjMGM4MWJlM2U2ZWQ3OTJhNDgwNjZiMzE1MTNkMTc2DQpkaXN0ICAgICA6IFt6aXBdIGh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2N0b2JlcnJhaW4vc3lzdGVtL3ppcGJhbGwvOTI4NzVmNmRhYzBjODFiZTNlNmVkNzkyYTQ4MDY2YjMxNTEzZDE3NiA5Mjg3NWY2ZGFjMGM4MWJlM2U2ZWQ3OTJhNDgwNjZiMzE1MTNkMTc2DQpwYXRoICAgICA6IEQ6XHhhbXBwLXBocDcyXGh0ZG9jc1x0b2N0b2Jlclxtb2R1bGVzXHN5c3RlbQ0KbmFtZXMgICAgOiBvY3RvYmVyL3N5c3RlbQ0KCnN1cHBvcnQNCnNvdXJjZSA6IGh0dHBzOi8vZ2l0aHViLmNvbS9vY3RvYmVycmFpbi9zeXN0ZW0vdHJlZS92MS4xLjkNCgphdXRvbG9hZA0KcHNyLTQNClN5c3RlbVwgPT4gLg0KCnJlcXVpcmVzDQpjb21wb3Nlci9pbnN0YWxsZXJzIH4xLjANCnBocCA+PTcuMg0K]]></stream>
+
+[14824] Log closed at 2021-12-24 02:07:14.911149
+
+[12500] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="run" transaction_id="20" status="stopping" reason="ok"></response>
+
+[12500] Log closed at 2021-12-24 02:07:14.945626
+
+[19056] Log opened at 2021-12-24 02:07:15.144986
+[19056] [Step Debug] INFO: Connecting to configured address/port: 127.0.0.1:9000.
+[19056] [Step Debug] INFO: Connected to debugging client: 127.0.0.1:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[19056] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///D:/xampp-php72/htdocs/toctober/artisan" language="PHP" xdebug:language_version="7.2.0" protocol_version="1.0" appid="19056" idekey="PHPSTORM"><engine version="3.1.2"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2021 by Derick Rethans]]></copyright></init>
+
+[19056] [Step Debug] <- feature_set -i 31 -n show_hidden -v 1
+[19056] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="31" feature="show_hidden" success="1"></response>
+
+[19056] [Step Debug] <- feature_set -i 32 -n extended_properties -v 1
+[19056] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="32" feature="extended_properties" success="1"></response>
+
+[19056] [Step Debug] <- feature_set -i 33 -n max_depth -v 3
+[19056] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="33" feature="max_depth" success="1"></response>
+
+[19056] [Step Debug] <- feature_set -i 34 -n max_children -v 51
+[19056] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="34" feature="max_children" success="1"></response>
+
+[19056] [Step Debug] <- feature_set -i 35 -n max_data -v 1024
+[19056] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="35" feature="max_data" success="1"></response>
+
+[19056] [Step Debug] <- feature_get -i 36 -n encoding
+[19056] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="36" feature_name="encoding" supported="1"><![CDATA[iso-8859-1]]></response>
+
+[19056] [Step Debug] <- feature_get -i 37 -n supports_async
+[19056] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="37" feature_name="supports_async" supported="1"><![CDATA[0]]></response>
+
+[19056] [Step Debug] <- stdout -i 38 -c 1
+[19056] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stdout" transaction_id="38" success="1"></response>
+
+[19056] [Step Debug] <- stderr -i 39 -c 1
+[19056] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stderr" transaction_id="39" success="0"></response>
+
+[19056] [Step Debug] <- run -i 40
+[19056] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="run" transaction_id="40" status="stopping" reason="ok"></response>
+
+[19056] Log closed at 2021-12-24 02:07:15.859848
+
+[10080] Log opened at 2021-12-24 02:07:15.967481
+[10080] [Step Debug] INFO: Connecting to configured address/port: 127.0.0.1:9000.
+[10080] [Step Debug] INFO: Connected to debugging client: 127.0.0.1:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[10080] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///D:/xampp-php72/htdocs/toctober/artisan" language="PHP" xdebug:language_version="7.2.0" protocol_version="1.0" appid="10080" idekey="PHPSTORM"><engine version="3.1.2"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2021 by Derick Rethans]]></copyright></init>
+
+[10080] [Step Debug] <- feature_set -i 41 -n show_hidden -v 1
+[10080] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="41" feature="show_hidden" success="1"></response>
+
+[10080] [Step Debug] <- feature_set -i 42 -n extended_properties -v 1
+[10080] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="42" feature="extended_properties" success="1"></response>
+
+[10080] [Step Debug] <- feature_set -i 43 -n max_depth -v 3
+[10080] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="43" feature="max_depth" success="1"></response>
+
+[10080] [Step Debug] <- feature_set -i 44 -n max_children -v 51
+[10080] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="44" feature="max_children" success="1"></response>
+
+[10080] [Step Debug] <- feature_set -i 45 -n max_data -v 1024
+[10080] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="45" feature="max_data" success="1"></response>
+
+[10080] [Step Debug] <- feature_get -i 46 -n encoding
+[10080] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="46" feature_name="encoding" supported="1"><![CDATA[iso-8859-1]]></response>
+
+[10080] [Step Debug] <- feature_get -i 47 -n supports_async
+[10080] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="47" feature_name="supports_async" supported="1"><![CDATA[0]]></response>
+
+[10080] [Step Debug] <- stdout -i 48 -c 1
+[10080] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stdout" transaction_id="48" success="1"></response>
+
+[10080] [Step Debug] <- stderr -i 49 -c 1
+[10080] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stderr" transaction_id="49" success="0"></response>
+
+[10080] [Step Debug] <- run -i 50
+[16632] Log opened at 2021-12-24 02:07:16.694150
+[16632] [Step Debug] INFO: Connecting to configured address/port: 127.0.0.1:9000.
+[16632] [Step Debug] INFO: Connected to debugging client: 127.0.0.1:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[16632] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///C:/ProgramData/ComposerSetup/bin/composer.phar" language="PHP" xdebug:language_version="7.2.0" protocol_version="1.0" appid="16632" idekey="PHPSTORM"><engine version="3.1.2"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2021 by Derick Rethans]]></copyright></init>
+
+[16632] [Step Debug] <- feature_set -i 51 -n show_hidden -v 1
+[16632] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="51" feature="show_hidden" success="1"></response>
+
+[16632] [Step Debug] <- feature_set -i 52 -n extended_properties -v 1
+[16632] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="52" feature="extended_properties" success="1"></response>
+
+[16632] [Step Debug] <- feature_set -i 53 -n max_depth -v 3
+[16632] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="53" feature="max_depth" success="1"></response>
+
+[16632] [Step Debug] <- feature_set -i 54 -n max_children -v 51
+[16632] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="54" feature="max_children" success="1"></response>
+
+[16632] [Step Debug] <- feature_set -i 55 -n max_data -v 1024
+[16632] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="55" feature="max_data" success="1"></response>
+
+[16632] [Step Debug] <- feature_get -i 56 -n encoding
+[16632] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="56" feature_name="encoding" supported="1"><![CDATA[iso-8859-1]]></response>
+
+[16632] [Step Debug] <- feature_get -i 57 -n supports_async
+[16632] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="57" feature_name="supports_async" supported="1"><![CDATA[0]]></response>
+
+[16632] [Step Debug] <- stdout -i 58 -c 1
+[16632] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stdout" transaction_id="58" success="1"></response>
+
+[16632] [Step Debug] <- stderr -i 59 -c 1
+[16632] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stderr" transaction_id="59" success="0"></response>
+
+[16632] [Step Debug] <- run -i 60
+[16632] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="run" transaction_id="60" status="stopping" reason="ok"></response>
+
+[16632] Log closed at 2021-12-24 02:07:16.899028
+
+[10080] [Step Debug] -> <stream xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" type="stdout" encoding="base64"><![CDATA[bmFtZSAgICAgOiBvY3RvYmVyL3N5c3RlbQ0KZGVzY3JpcC4gOiBTeXN0ZW0gbW9kdWxlIGZvciBPY3RvYmVyIENNUw0Ka2V5d29yZHMgOiBvY3RvYmVyLCBvY3RvYmVyIGNtcywgc3lzdGVtDQp2ZXJzaW9ucyA6ICogdjEuMS45DQp0eXBlICAgICA6IG9jdG9iZXItbW9kdWxlDQpsaWNlbnNlICA6IE1JVCBMaWNlbnNlIChNSVQpIChPU0kgYXBwcm92ZWQpIGh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvTUlULmh0bWwjbGljZW5zZVRleHQNCmhvbWVwYWdlIDogaHR0cHM6Ly9vY3RvYmVyY21zLmNvbQ0Kc291cmNlICAgOiBbZ2l0XSBodHRwczovL2dpdGh1Yi5jb20vb2N0b2JlcnJhaW4vc3lzdGVtLmdpdCA5Mjg3NWY2ZGFjMGM4MWJlM2U2ZWQ3OTJhNDgwNjZiMzE1MTNkMTc2DQpkaXN0ICAgICA6IFt6aXBdIGh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2N0b2JlcnJhaW4vc3lzdGVtL3ppcGJhbGwvOTI4NzVmNmRhYzBjODFiZTNlNmVkNzkyYTQ4MDY2YjMxNTEzZDE3NiA5Mjg3NWY2ZGFjMGM4MWJlM2U2ZWQ3OTJhNDgwNjZiMzE1MTNkMTc2DQpwYXRoICAgICA6IEQ6XHhhbXBwLXBocDcyXGh0ZG9jc1x0b2N0b2Jlclxtb2R1bGVzXHN5c3RlbQ0KbmFtZXMgICAgOiBvY3RvYmVyL3N5c3RlbQ0KCnN1cHBvcnQNCnNvdXJjZSA6IGh0dHBzOi8vZ2l0aHViLmNvbS9vY3RvYmVycmFpbi9zeXN0ZW0vdHJlZS92MS4xLjkNCgphdXRvbG9hZA0KcHNyLTQNClN5c3RlbVwgPT4gLg0KCnJlcXVpcmVzDQpjb21wb3Nlci9pbnN0YWxsZXJzIH4xLjANCnBocCA+PTcuMg0K]]></stream>
+
+[10080] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="run" transaction_id="50" status="stopping" reason="ok"></response>
+
+[10080] Log closed at 2021-12-24 02:07:16.941053
+
+[10248] Log opened at 2021-12-24 02:07:17.012663
+[10248] [Step Debug] INFO: Connecting to configured address/port: 127.0.0.1:9000.
+[10248] [Step Debug] INFO: Connected to debugging client: 127.0.0.1:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[10248] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///D:/xampp-php72/htdocs/toctober/artisan" language="PHP" xdebug:language_version="7.2.0" protocol_version="1.0" appid="10248" idekey="PHPSTORM"><engine version="3.1.2"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2021 by Derick Rethans]]></copyright></init>
+
+[10248] [Step Debug] <- feature_set -i 61 -n show_hidden -v 1
+[10248] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="61" feature="show_hidden" success="1"></response>
+
+[10248] [Step Debug] <- feature_set -i 62 -n extended_properties -v 1
+[10248] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="62" feature="extended_properties" success="1"></response>
+
+[10248] [Step Debug] <- feature_set -i 63 -n max_depth -v 3
+[10248] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="63" feature="max_depth" success="1"></response>
+
+[10248] [Step Debug] <- feature_set -i 64 -n max_children -v 51
+[10248] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="64" feature="max_children" success="1"></response>
+
+[10248] [Step Debug] <- feature_set -i 65 -n max_data -v 1024
+[10248] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="65" feature="max_data" success="1"></response>
+
+[10248] [Step Debug] <- feature_get -i 66 -n encoding
+[10248] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="66" feature_name="encoding" supported="1"><![CDATA[iso-8859-1]]></response>
+
+[10248] [Step Debug] <- feature_get -i 67 -n supports_async
+[10248] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="67" feature_name="supports_async" supported="1"><![CDATA[0]]></response>
+
+[10248] [Step Debug] <- stdout -i 68 -c 1
+[10248] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stdout" transaction_id="68" success="1"></response>
+
+[10248] [Step Debug] <- stderr -i 69 -c 1
+[10248] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stderr" transaction_id="69" success="0"></response>
+
+[10248] [Step Debug] <- run -i 70
+[10248] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="run" transaction_id="70" status="stopping" reason="ok"></response>
+
+[10248] Log closed at 2021-12-24 02:07:17.716963
+
+[12128] Log opened at 2021-12-24 02:07:17.984679
+[12128] [Step Debug] INFO: Connecting to configured address/port: 127.0.0.1:9000.
+[12128] [Step Debug] INFO: Connected to debugging client: 127.0.0.1:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[12128] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///D:/xampp-php72/htdocs/toctober/artisan" language="PHP" xdebug:language_version="7.2.0" protocol_version="1.0" appid="12128" idekey="PHPSTORM"><engine version="3.1.2"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2021 by Derick Rethans]]></copyright></init>
+
+[12128] [Step Debug] <- feature_set -i 71 -n show_hidden -v 1
+[12128] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="71" feature="show_hidden" success="1"></response>
+
+[12128] [Step Debug] <- feature_set -i 72 -n extended_properties -v 1
+[12128] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="72" feature="extended_properties" success="1"></response>
+
+[12128] [Step Debug] <- feature_set -i 73 -n max_depth -v 3
+[12128] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="73" feature="max_depth" success="1"></response>
+
+[12128] [Step Debug] <- feature_set -i 74 -n max_children -v 51
+[12128] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="74" feature="max_children" success="1"></response>
+
+[12128] [Step Debug] <- feature_set -i 75 -n max_data -v 1024
+[12128] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="75" feature="max_data" success="1"></response>
+
+[12128] [Step Debug] <- feature_get -i 76 -n encoding
+[12128] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="76" feature_name="encoding" supported="1"><![CDATA[iso-8859-1]]></response>
+
+[12128] [Step Debug] <- feature_get -i 77 -n supports_async
+[12128] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="77" feature_name="supports_async" supported="1"><![CDATA[0]]></response>
+
+[12128] [Step Debug] <- stdout -i 78 -c 1
+[12128] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stdout" transaction_id="78" success="1"></response>
+
+[12128] [Step Debug] <- stderr -i 79 -c 1
+[12128] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stderr" transaction_id="79" success="0"></response>
+
+[12128] [Step Debug] <- run -i 80
+[12128] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="run" transaction_id="80" status="stopping" reason="ok"></response>
+
+[12128] Log closed at 2021-12-24 02:07:18.662288
+
+[7148] Log opened at 2021-12-24 02:07:18.811892
+[7148] [Step Debug] INFO: Connecting to configured address/port: 127.0.0.1:9000.
+[7148] [Step Debug] INFO: Connected to debugging client: 127.0.0.1:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[7148] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///D:/xampp-php72/htdocs/toctober/artisan" language="PHP" xdebug:language_version="7.2.0" protocol_version="1.0" appid="7148" idekey="PHPSTORM"><engine version="3.1.2"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2021 by Derick Rethans]]></copyright></init>
+
+[7148] [Step Debug] <- feature_set -i 81 -n show_hidden -v 1
+[7148] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="81" feature="show_hidden" success="1"></response>
+
+[7148] [Step Debug] <- feature_set -i 82 -n extended_properties -v 1
+[7148] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="82" feature="extended_properties" success="1"></response>
+
+[7148] [Step Debug] <- feature_set -i 83 -n max_depth -v 3
+[7148] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="83" feature="max_depth" success="1"></response>
+
+[7148] [Step Debug] <- feature_set -i 84 -n max_children -v 51
+[7148] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="84" feature="max_children" success="1"></response>
+
+[7148] [Step Debug] <- feature_set -i 85 -n max_data -v 1024
+[7148] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="85" feature="max_data" success="1"></response>
+
+[7148] [Step Debug] <- feature_get -i 86 -n encoding
+[7148] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="86" feature_name="encoding" supported="1"><![CDATA[iso-8859-1]]></response>
+
+[7148] [Step Debug] <- feature_get -i 87 -n supports_async
+[7148] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="feature_get" transaction_id="87" feature_name="supports_async" supported="1"><![CDATA[0]]></response>
+
+[7148] [Step Debug] <- stdout -i 88 -c 1
+[7148] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stdout" transaction_id="88" success="1"></response>
+
+[7148] [Step Debug] <- stderr -i 89 -c 1
+[7148] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="stderr" transaction_id="89" success="0"></response>
+
+[7148] [Step Debug] <- run -i 90
+[7148] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" command="run" transaction_id="90" status="stopping" reason="ok"></response>
+
+[7148] Log closed at 2021-12-24 02:07:19.500631
+
